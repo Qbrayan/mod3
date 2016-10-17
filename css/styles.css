@@ -81,53 +81,13 @@ h3{
 
 
 p{
-  font-family: 'Lora', serif;
   font-size: 1.5em;
   color: #557c3e;
-  line-height: .75;
+  line-height: 1.00;
 }
 
 
 
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
-  }
-  /* End Home Page */
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
-  /* End Home Page */
-}
-
-/********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
@@ -185,27 +145,7 @@ p{
   .panel-footer section hr {
     width: 50%;
   }
-  /* End Footer */
-
-  /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
+ 
 }
 
 
@@ -216,22 +156,7 @@ p{
     padding-top: 5px;
     font-size: 6vw;
   }
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
+ 
 }
 
 
